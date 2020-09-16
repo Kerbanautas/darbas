@@ -1,0 +1,22 @@
+.flex {
+    margin: 100px;
+    display: flex;
+    border: solid 5px rgb(58, 37, 82);
+    background: rgb(211, 211, 109);
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+}
+.flex-item {
+    background: rgb(63, 89, 90);
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-2 {
+    flex-shrink: i;
+}

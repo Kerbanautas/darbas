@@ -1,0 +1,54 @@
+header {
+    position: relative;
+    top: 15px;
+    border: solid 3px green;
+}
+nav {
+    position: relative;
+    top: 20px;
+    border: solid 3px red;
+}
+article {
+    position: relative;
+    top: 25px;
+    height: 640px;
+    width: 500px;
+    border: solid 3px blue;
+}
+.aheader {
+    position: absolute;
+    height: 50px;
+    width: 480px;
+    left: 5px;
+    border: double 5px green;
+}
+.asection1 {
+    position: absolute;
+    height: 50px;
+    width: 480px;
+    left: 5px;
+    top: 450px;
+    border: double 5px purple;
+}
+.asection2 {
+    position: absolute;
+    height: 50px;
+    width: 480px;
+    left: 5px;
+    top: 510px;
+    border: double 5px purple;
+}
+.afooter {
+    position: absolute;
+    height: 50px;
+    width: 480px;
+    left: 5px;
+    top: 570px;
+    border: double 5px yellow;
+}
+.box {
+    position: relative;
+    top: 30px;
+    left: 510px;
+    border: double 5px orange;
+}
