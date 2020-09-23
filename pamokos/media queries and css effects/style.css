@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+    justify-content: center;
+    background: lightgreen;
+}
+.wrapper {
+    height: 800px;
+    width: 800px;
+    margin: auto;
+    background: lightgreen;
+}
+.box {
+    height: 80px;
+    width: 80px;
+    margin: 40px auto;
+}
+.box1 {
+    background: chocolate;
+    transition: all 3s;
+}
+.box2 {
+    background: crimson;
+    transition: all 1s;
+}
+h1 {
+    text-align: center;
+}
+.wrapper:hover .box1, .wrapper:hover .box2 {
+    transform: scale(2);
+    background: darkblue;
+}
+.circle {
+    height: 40px;
+    width: 40px;
+    background: black;
+    margin: 10px;
+}
+.circle1 {
+    transition: all 2s ease;
+    transform-origin: -100% -100%;
+}
+.circle2 {
+    transition: all 1s ease-in .7s;
+}
+.circle3 {
+    transition: all 2s ease-in-out .5s;
+}
+.circle4 {
+    transition: all 2s ease-out .2s;
+}
+.circle5 {
+    transition: all 2s linear .9s;
+}
+
+.wrapper:hover .circle1,
+.wrapper:hover .circle2,
+.wrapper:hover .circle3,
+.wrapper:hover .circle4,
+.wrapper:hover .circle5 {
+    transform: rotate(180deg);
+}
