@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Instagram</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="base-container header-nav" style="height: 52px;">
+            <div class="logo-group">
+                <div>
+                    <i class="fab fa-2x fa-instagram"></i>
+                </div>
+                <div class="vertical-line" style="opacity: 0;"></div>
+                <div class="logo-group__title" style="opacity: 0;">Instagram</div>
+            </div>
+            <div class="only-desktop">
+                <button class="search">
+                    <i class="fa fa-search search-icon"></i>
+                    Paieška
+                </button>
+            </div>
+            <div class="social-icons">
+                <span>
+                    <i class="far fa-compass social-icons-m-size"></i>
+                </span>
+                <span><i class="far fa-heart social-icons-m-size"></i>
+                </span>
+                <span>
+                    <i class="far fa-user social-icons-m-size"></i>
+                </span>
+            </div>
+        </div>
+    </header>
+    <section class="card-container">
+        <div class="card">
+            <div class="card__title">
+                <div class="outer-div">
+                    <img src="dog.jpg" alt="">
+                </div>
+                <div class="card__title--name">Petriukas</div>
+            </div>
+            <div class="card__image"></div>
+            <div class="card-container--inner">
+                <div class="card__social">
+                    <div>
+                        <span>
+                            <i class="far fa-heart social-icons-m-size like-heart"></i>
+                        </span>
+                        <label for="comment">
+                            <i class="far fa-comment social-icons-m-size"></i>
+                        </label>
+                    </div>
+                    <span>
+                        <i class="far fa-bookmark social-icons-m-size"></i>
+                    </span>
+                </div>
+                <div class="card__likes bold">
+                    <span class="likes-count">0</span>
+                    <span>Likes</span>
+                </div>
+                <div class="card__comments">
+                    <div class="card__comments_comment">
+                        <span class="bold"></span>
+                    </div>
+                </div>
+                <div class="card__add-comment">
+                    <div class="card__add-comment__box">
+                        <input id="comment" class="comment-input" type="text" placeholder="Pridėti komentara...">
+                        <span>
+                            <i class="fas fa-ellipsis-h social-icons-m-size"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
